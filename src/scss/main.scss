@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  // background-image: url(img/petal.jpg);
+  color: white;
+  font-family: 'Creepster', cursive;
+}
+
+.header {
+  background: blueviolet;
+  background-image: url('/public/img/header.jpg');
+  text-align: center;
+}
+/* Aplicar estilo a la imagen */
+// .title {
+//   width: 250px;
+//   height: 150px;
+//   border: 2px solid #ff6a00;
+//   border-radius: 10px; /* Agregar bordes redondeados si es necesario */
+/* Otros estilos según tus preferencias */
+// }
+
+p {
+  justify-content: center;
+  text-align: center;
+  font-weight: bold;
+  color: black;
+}
+li {
+  background-color: aliceblue;
+  border-radius: 10px; /* Agrega bordes redondeados */
+  display: flex;
+  flex-direction: column; /* Muestra los elementos como columnas */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 3rem;
+  margin: 10px; /* Agrega un margen entre las "cartas" */
+  width: 250px; /* Establece un ancho fijo para las "cartas" */
+  height: 350px; /* Establece una altura fija para las "cartas" */
+  // background-image: url(img/petal.jpg);
+  display: grid;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 3rem;
+  border: #ff6a00;
+}
+
+ul {
+  background-color: rgb(226, 226, 198);
+  // background: rgb(0, 0, 0);
+  border: 5px solid black;
+  // margin: 1rem;
+  display: grid;
+  display: flex;
+  // justify-content: center; /* Centrar horizontalmente */
+  flex-wrap: wrap; /* Envolver las tarjetas en varias líneas si es necesario */
+  // background: blue;
+  padding: 10px; /* Espaciado entre el borde y las tarjetas */
+  // background-size: auto;
+  border-radius: black;
+
+  .name {
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+      'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+}
