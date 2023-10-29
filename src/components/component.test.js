@@ -6,7 +6,7 @@ describe('Given the component Component', () => {
   beforeEach(() => {
     document.body.innerHTML = '<div id="app"></div>';
     const appContainer = document.getElementById('app');
-    new Component().render(appContainer); // Crea una instancia del componente y agrega su contenido al DOM
+    new Component().render(appContainer);
   });
 
   describe('When it is instantiated', () => {
@@ -19,7 +19,5 @@ describe('Given the component Component', () => {
       const textboxElement = screen.getByRole('textbox');
       expect(textboxElement).toBeInTheDocument();
     });
-
-    // Agrega más pruebas según las expectativas de tu componente
   });
 });

@@ -14,7 +14,7 @@ export class Footer extends Component {
     <div>
   <img class"image-class" src="./img/pokemon.logo.svg.jpg" alt="" width="250" height="250">   
       </div>
-S    </footer>
+    </footer>
     `;
   }
 }

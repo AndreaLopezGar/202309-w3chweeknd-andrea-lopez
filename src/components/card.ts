@@ -31,10 +31,10 @@ export class Card extends Component {
       pokemonPage.map(
         (pokemon) => `
           <li>
-            <p class=🕸"id">${pokemon.id}</p>
+            <p class="id">🎃${pokemon.id}</p>
             <p class="name" </p>
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/${pokemon.id}.gif" height="80" width="60">
-            <p class="name">${pokemon.name}🕸</p>
+            <p class="name">${pokemon.name}</p>
           </li>`
       )
     );

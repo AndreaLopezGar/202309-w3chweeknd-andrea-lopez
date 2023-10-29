@@ -42,14 +42,15 @@ li {
   // background-image: url(img/petal.jpg);
   display: grid;
   list-style: none;
-  border: grey;
+  border: grey solid 2.5px;
   border-style: inherit;
+  box-shadow: 5px 5px 10px rgba(238, 121, 26, 0.3);
 }
 
 ul {
   background-color: rgb(226, 226, 198);
   // background: rgb(0, 0, 0);
-  border: 4px solid #d155bc;
+  border: 2px solid #d155bc;
   // margin: 1rem;
   display: grid;
   display: flex;
