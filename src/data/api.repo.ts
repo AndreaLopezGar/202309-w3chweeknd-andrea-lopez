@@ -22,8 +22,8 @@ export class ApiPokemon {
         return pokeData;
       })
     );
-    for (let i = 0; i < pokeDataContainer.length; i + 30) {
-      pokeContainer.push(pokeDataContainer.splice(i, 30));
+    for (let i = 0; i < pokeDataContainer.length; i + 38) {
+      pokeContainer.push(pokeDataContainer.splice(i, 35));
     }
 
     return pokeContainer;

@@ -1,4 +1,5 @@
 import { Component } from './component';
+import '../scss/header.scss';
 
 export class Header extends Component {
   constructor(selector: string) {
@@ -10,10 +11,7 @@ export class Header extends Component {
 
   createTemplate() {
     return `<header class="header">
-     <div>
-      <img src="/img/pokemon-logo.svg" alt="" width="130" height="100">
-      </div>
-                
-            </header>`;
+  <img class"image-class" src="./img/pokemon.logo.svg.jpg" alt="" width="250" height="250">   
+  </header>`;
   }
 }

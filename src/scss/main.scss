@@ -13,13 +13,12 @@ body {
   background-image: url('/public/img/header.jpg');
   text-align: center;
 }
-/* Aplicar estilo a la imagen */
+
 // .title {
 //   width: 250px;
 //   height: 150px;
 //   border: 2px solid #ff6a00;
-//   border-radius: 10px; /* Agregar bordes redondeados si es necesario */
-/* Otros estilos según tus preferencias */
+//   border-radius: 10px;
 // }
 
 p {
@@ -30,39 +29,37 @@ p {
 }
 li {
   background-color: aliceblue;
-  border-radius: 10px; /* Agrega bordes redondeados */
+  border-radius: 10px;
   display: flex;
-  flex-direction: column; /* Muestra los elementos como columnas */
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 3rem;
-  margin: 10px; /* Agrega un margen entre las "cartas" */
-  width: 250px; /* Establece un ancho fijo para las "cartas" */
-  height: 350px; /* Establece una altura fija para las "cartas" */
+  padding: 1rem;
+  margin: 10px;
+  width: 150px;
+  height: 250px;
   // background-image: url(img/petal.jpg);
   display: grid;
   list-style: none;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  padding: 3rem;
-  border: #ff6a00;
+  border: grey;
+  border-style: inherit;
 }
 
 ul {
   background-color: rgb(226, 226, 198);
   // background: rgb(0, 0, 0);
-  border: 5px solid black;
+  border: 4px solid #d155bc;
   // margin: 1rem;
   display: grid;
   display: flex;
-  // justify-content: center; /* Centrar horizontalmente */
-  flex-wrap: wrap; /* Envolver las tarjetas en varias líneas si es necesario */
-  // background: blue;
-  padding: 10px; /* Espaciado entre el borde y las tarjetas */
-  // background-size: auto;
-  border-radius: black;
+  // justify-content: center;
+  flex-wrap: wrap;
+  padding: 10px;
+  // border-radius: black;
+  text-align: center;
+  justify-content: space-between;
+  justify-content: center;
 
   .name {
     color: black;
